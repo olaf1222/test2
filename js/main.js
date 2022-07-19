@@ -77,9 +77,13 @@
 // console.log(getFullName('Tnaka','Taro'));
 
 //22
-let answer = 'あいうえお';
-answer = 'あいうえおかきくけこ'
-console.log(answer);
+// let answer = 'あいうえお';
+// answer = 'あいうえおかきくけこ'
+// console.log(answer);
 
-
+//24
+let str = "あいうえお"
+const NewStr = str.replace('あ','お');
+console.log(str);
+console.log(NewStr);
 }
